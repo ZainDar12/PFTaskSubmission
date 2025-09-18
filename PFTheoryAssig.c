@@ -1,3 +1,4 @@
+//Q1
 #include<stdio.h>
 #include <string.h>
 int main(){
@@ -41,6 +42,7 @@ int main(){
         printf("Transactions are suspicious due to short time interval\n");}
     return 0;    
 }
+//Q2
 #include <stdio.h>
 int main(){
     printf("Please enter the x cordinate of the point:\n");
@@ -66,6 +68,7 @@ int main(){
         }
     return 0;
     }
+//Q3
 #include <stdio.h>
 
 int main() {
@@ -120,7 +123,7 @@ int main() {
 
     return 0;
 }
-
+//Q4
 #include <stdio.h>
 #include <string.h>
 int main(){
@@ -145,6 +148,7 @@ int main(){
     }
     return 0;
 }
+//Q5
 #include <stdio.h>
 int main(){
     int Num[10] = {0};
@@ -163,4 +167,28 @@ int main(){
     for(i=0;i<10;i++){
         printf("%d                   %d\n",i,Num[i]);}
     return 0;
+}
+//Q7
+#include <stdio.h>
+int main()
+{
+    int value;
+    printf("Please enter values in the range: 1....5\n");
+    scanf("%d", &value);
+    switch (value)
+    {case 1:
+        printf("You entered One\n");
+        break;
+    case 2:
+        printf("You entered Two\n");
+        break;
+    case 3:
+        printf("You entered Three\n");
+        break;
+    case 4:
+        printf("You entered Four\n");
+        break;
+    case 5:
+        printf("You entered Five\n");
+        break;}
 }
