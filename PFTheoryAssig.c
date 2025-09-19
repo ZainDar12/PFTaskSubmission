@@ -177,18 +177,24 @@ int main()
     scanf("%d", &value);
     switch (value)
     {case 1:
-        printf("You entered One\n");
+        printf("You entered Monday\n");
         break;
     case 2:
-        printf("You entered Two\n");
+        printf("You entered Tuesday\n");
         break;
     case 3:
-        printf("You entered Three\n");
+        printf("You entered Wednesday\n");
         break;
     case 4:
-        printf("You entered Four\n");
+        printf("You entered Thursday\n");
         break;
     case 5:
-        printf("You entered Five\n");
-        break;}
+        printf("You entered Friday\n");
+        break;
+     case 6:
+         printf("You entered Saturday \n");
+     case 7:
+         printf("You entered Sunday \n");
+         break;}
 }
+
